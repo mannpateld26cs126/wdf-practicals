@@ -1,0 +1,58 @@
+﻿    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Student Portal | Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+    <header>
+    <nav>
+        <a href="index.html" class="logo">STARK</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+        <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="attendance.html">Attendance</a></li>
+        <li><a href="timetable.html">Timetable</a></li>
+        <li><a href="materials.html">Materials</a></li>
+        <li><a href="notices.html">Notices</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="admin-login.html">Admin</a></li>
+        <li><a href="login.html" class="btn-login">Login</a></li>
+        <li><a href="registration.html" class="btn-login">Registration</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+        <h1>Helpdesk & Support</h1>
+        <p>Have questions or reporting an issue? Send us a query.</p>
+        </section>
+
+        <div class="form-container" style="max-width: 600px; margin: 0;">
+        <form action="#">
+            <div class="form-group">
+            <label for="subject">Issue Category</label>
+            <select id="subject">
+                <option>Academic Inquiry</option>
+                <option>Portal Technical Bug</option>
+                <option>Attendance Correction</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <label for="msg">Message</label>
+            <textarea id="msg" rows="4" placeholder="Describe your issue in detail..."></textarea>
+            </div>
+            <button type="submit" class="btn">Submit Query</button>
+        </form>
+        </div>
+    </main>
+
+            <script src="js/main.js"></script>
+    </body>
+    </html>
+

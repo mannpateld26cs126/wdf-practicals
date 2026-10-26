@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy OS | Command Center</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">STARK</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="index.html" class="active">Command</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="timetable.html">Timetable</a></li>
+                <li><a href="materials.html">Materials</a></li>
+                <li><a href="notices.html">Notices</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="btn-login">Exit / Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <span class="page-badge">System online // 23 Sep 2026</span>
+            <h1>Good morning, Mann.</h1>
+            <p>Welcome to your academic command center. All systems are nominal. Your next mission is ready.</p>
+        </section>
+
+        <section class="grid grid-3" aria-label="Academic status">
+            <article class="card stat-card accent-blue">
+                <div class="card-icon">CORE</div>
+                <h3>Overall Attendance</h3>
+                <p class="stat-value">88%</p>
+                <p>Above the 75% mission threshold.</p>
+            </article>
+            <article class="card stat-card accent-gold">
+                <div class="card-icon">ARC</div>
+                <h3>Current Semester</h3>
+                <p class="stat-value">04</p>
+                <p>Computer Science Engineering</p>
+            </article>
+            <article class="card stat-card accent-green">
+                <div class="card-icon">!</div>
+                <h3>Open Assignments</h3>
+                <p class="stat-value">02</p>
+                <p>Web Development Practicals</p>
+            </article>
+        </section>
+
+        <section class="quick-links-block">
+            <span class="page-badge">Mission modules</span>
+            <h2>Choose your next move.</h2>
+            <div class="grid grid-2">
+                <a href="timetable.html" class="card quick-link accent-purple">
+                    <span class="link-kicker">Flight plan // Today</span>
+                    <h3>View timetable <span>-></span></h3>
+                    <p>Access your upcoming lectures, labs, and room coordinates.</p>
+                </a>
+                <a href="materials.html" class="card quick-link accent-cyan">
+                    <span class="link-kicker">Knowledge core</span>
+                    <h3>Open study materials <span>-></span></h3>
+                    <p>Deploy notes, PDFs, and reference files from your learning hub.</p>
+                </a>
+                <a href="notices.html" class="card quick-link accent-orange">
+                    <span class="link-kicker">Incoming transmission</span>
+                    <h3>Read latest notices <span>-></span></h3>
+                    <p>Review announcements from faculty and the academy network.</p>
+                </a>
+                <a href="attendance.html" class="card quick-link accent-cyan">
+                    <span class="link-kicker">Diagnostics</span>
+                    <h3>Run attendance scan <span>-></span></h3>
+                    <p>Inspect subject-level performance before your next deployment.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

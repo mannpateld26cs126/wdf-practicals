@@ -1,0 +1,52 @@
+﻿    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Student Portal | Admin Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">STARK</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+        <ul id="nav-links" class="nav-links">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="attendance.html">Attendance</a></li>
+            <li><a href="timetable.html">Timetable</a></li>
+            <li><a href="materials.html">Materials</a></li>
+            <li><a href="notices.html">Notices</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="settings.html">Settings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="admin-login.html" class="active">Admin</a></li>
+            <li><a href="login.html" class="btn-login">Login</a></li>
+            <li><a href="registration.html" class="btn-login">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-container">
+        <h2 style="margin-bottom: 0.5rem; text-align: center;">Faculty & Admin Login</h2>
+        <p style="color: var(--text-muted); font-size: 0.85rem; text-align: center; margin-bottom: 1.5rem;">Administrative control panel access</p>
+        
+        <form action="index.html" method="GET">
+            <div class="form-group">
+            <label for="admin-id">Faculty Email / ID</label>
+            <input type="email" id="admin-id" placeholder="prof.smith@college.edu" required>
+            </div>
+            <div class="form-group">
+            <label for="admin-key">Security Key</label>
+            <input type="password" id="admin-key" placeholder="********" required>
+            </div>
+            <button type="submit" class="btn" style="background-color: #0f172a;">Access Admin Suite</button>
+        </form>
+        </div>
+    </main>
+
+            <script src="js/main.js"></script>
+    </body>
+    </html>
+
